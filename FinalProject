@@ -1,1 +1,39 @@
-Hey Jessica, type something below to confirm you are here, thank you!
+import random
+print('Welcome to a count game! You will have 24 problems to solve. If you get 21 problems solved correctly, you will have a chance to participate in a supergame!')
+print('But if you make 4 mistakes, you lose!')
+#counters for roght and wrong answers
+rightAnswers = 0
+wrongAnswers = 0
+
+#loop to have 24 rounds in a game
+for i in range(24):
+#randomly generated values for problems    
+    value1 = random.randint(1, 100)
+    value2 = random.randint(1, 10)
+    value3 = random.randint(1, 15)
+#format for problems    
+    answer = value1 + (value2 * value3)
+    print('Please calculate and enter the result: ', value1, '+', value2, '*', value3)
+#prompt to request user to enter his answer    
+    userAnswer = int(input('Your asnwer(should be integer value): '))
+
+#conditions depending if answer correct or wrong and editions to counters
+    if userAnswer == answer:
+        rightAnswers = rightAnswers + 1
+    else:
+        wrongAnswers = wrongAnswers + 1
+#breaking loop if one of conditions below is met
+    if wrongAnswers == 4:
+        break
+    if rightAnswers == 21:
+        break
+    
+
+#supergame, the idea is to keep making those problems in a loop of 5 times, but any mistake causes the lose for the player, didn't finish that one, you can complete.
+#you can just copy my idea from code above, pretty easy, hopefully good enough for a final ! :)
+if rightAnswers > 20:
+    print('Congratulations, you reached', rightAnswers, 'points. You can participate in a supergame!')
+    print('To win the supergame you need to answer 5 correct answers in a row, if you make a mistake you lose!')
+else:
+    print("Thank you for playing! Your final score is: ", rightAnswers, ", unfortunately you didn't make it to a supergame, try next time!")
+    
