@@ -1,7 +1,7 @@
 import random
 print('Welcome to a count game! You will have 24 problems to solve. If you get 21 problems solved correctly, you will have a chance to participate in a supergame!')
 print('But if you make 4 mistakes, you lose!')
-#counters for roght and wrong answers
+#counters for right and wrong answers
 rightAnswers = 0
 wrongAnswers = 0
 
@@ -21,7 +21,7 @@ for i in range(24):
     if userAnswer == answer:
         rightAnswers = rightAnswers + 1
     else:
-        wrongAnswers = wrongAnswers + 1
+        wrongAnswers = wrongAnswers + 1 
 #breaking loop if one of conditions below is met
     if wrongAnswers == 4:
         break
@@ -30,7 +30,6 @@ for i in range(24):
     
 
 #supergame, the idea is to keep making those problems in a loop of 5 times, but any mistake causes the lose for the player, didn't finish that one, you can complete.
-#you can just copy my idea from code above, pretty easy, hopefully good enough for a final ! :)
 if rightAnswers > 20:
     print('Congratulations, you reached', rightAnswers, 'points. You can participate in a supergame!')
     print('To win the supergame you need to answer 5 correct answers in a row, if you make a mistake you lose!')
