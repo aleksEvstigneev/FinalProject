@@ -29,13 +29,13 @@ def mathGame():
 #breaking loop if one of conditions below is met
         if wrongAnswers == 4:
             break
-        if rightAnswers == 1:
+        if rightAnswers == 21:
             break
     
 
 #supergame, the idea is to keep making those problems in a loop of 5 times, but any mistake causes the lose for the player, didn't finish that one, you can complete.
 #you can just copy my idea from code above, pretty easy, hopefully good enough for a final ! :)
-    if rightAnswers > 0:
+    if rightAnswers > 20:
         print('Congratulations, you reached', rightAnswers, 'points. You can participate in a supergame!')
         print('To win the supergame you need to answer 5 correct answers in a row, if you make a mistake you lose!')
         for i in range(superGame):
