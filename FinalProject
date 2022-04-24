@@ -86,4 +86,4 @@ def mathGame():
         print("                   Thank you for playing, ", player, ", Your final score is: ", rightAnswers, ", unfortunately you didn't make it to SUPERGAME, try next time!")
 mathGame()
     
-print("Jessica")
+
