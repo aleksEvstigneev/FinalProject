@@ -36,7 +36,7 @@ def mathGame():
         else:
             wrongAnswers = wrongAnswers + 1
             print()
-            print("That's incorrect, the correct answer was", answer, 'You have', wrongAnswers, 'mistakes so far')
+            print("That's incorrect, the correct answer was", answer, 'The number of mistakes so far: ', wrongAnswers)
 #breaking loop if one of conditions below is met
         if wrongAnswers == 4:
             break
@@ -85,5 +85,4 @@ def mathGame():
         print()
         print("                   Thank you for playing, ", player, ", Your final score is: ", rightAnswers, ", unfortunately you didn't make it to SUPERGAME, try next time!")
 mathGame()
-    
 
