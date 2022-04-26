@@ -93,7 +93,7 @@ print('Answer each of the questions below honestly about yourself and we’ll sc
 name = input("What is your name?")
 score=0
 
-print("When I walk, I tend to do it...type A,B,C,D or any other key to skip:")
+print("When I walk, I tend to do it...type A,B,C,D,E or any other key to skip:")
 print("A. Fairly fast, with long steps")
 print("B. Fairly fast, with small steps")
 print("C. Less fast,head up, looking the world in the face")
@@ -115,7 +115,7 @@ else:
 
 print()
 
-print("When you speak to people,you tend to...type A,B,C,D or any other key to skip:")
+print("When you speak to people,you tend to...type A,B,C,D,E or any other key to skip:")
 print("A. Stand with your arms folded")
 print("B. Have your arms clasped")
 print("C. Have one or both of your hands on your hips")
@@ -271,7 +271,7 @@ else:
 
 print()
 
-print("When you dream, you're often...type A,B,C,D or any other key to skip:")
+print("When you dream, you're often...type A,B,C,D,E or any other key to skip:")
 print("A. Falling")
 print("B. Fighting or struggling")
 print("C. Searching for something or somebody")
