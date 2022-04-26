@@ -86,3 +86,223 @@ def mathGame():
         print("                   Thank you for playing, ", player, ", Your final score is: ", rightAnswers, ", unfortunately you didn't make it to SUPERGAME, try next time!")
 mathGame()
 
+
+
+print('Personality Test')
+print('Answer each of the questions below honestly about yourself and we’ll score the quiz and let you know how others see you.')
+name = input("What is your name?")
+score=0
+
+print("When I walk, I tend to do it...type A,B,C,D or any other key to skip:")
+print("A. Fairly fast, with long steps")
+print("B. Fairly fast, with small steps")
+print("C. Less fast,head up, looking the world in the face")
+print("D. Less fast, head down")
+print ("E. Very slowly")
+answer1 = input("Your answer: ").upper()
+if answer1 == "A":
+    score = score+5
+elif answer1 == "B":
+    score = score+4
+elif answer1 == "C":
+    score = score+6
+elif answer1 == "D":
+    score = score+3
+elif answer1 == "E":
+    score = score+2
+else:
+    print("You decided to skip this question.")
+
+print()
+
+print("When you speak to people,you tend to...type A,B,C,D or any other key to skip:")
+print("A. Stand with your arms folded")
+print("B. Have your arms clasped")
+print("C. Have one or both of your hands on your hips")
+print("D. Touch or push the person to whom you are talking to")
+print("E. Play with your ear or hair, touch your chin, or smooth your hair")
+answer2 = input("Your answer: ").upper()
+if answer2 == "A":
+    score = score+6
+elif answer2 == "B":
+    score = score+3
+elif answer2 == "C":
+    score = score+4
+elif answer2 == "D":
+    score = score+5
+elif answer2 == "E":
+    score = score+2
+else:
+    print("You decided to skip this question.")  
+
+print()
+
+print("When you're relaxed, you usually sit with...type A,B,C,D or any other key to skip:")
+print("A. Your knees bent, with your legs neatly side by side")
+print("B. Your legs crossed")
+print("C. Your legs stretched out or straight")
+print("D. One leg curled under you")
+answer3 = input("Your answer: ").upper()
+if answer3 == "A":
+    score = score+4
+elif answer3 == "B":
+    score = score+3
+elif answer3 == "C":
+    score = score+5
+elif answer3 == "D":
+    score = score+2
+else:
+    print("You decided to skip this question.")      
+
+print()
+
+print("I feel most energetic and focused...type A,B,C,D or any other key to skip:")
+print("A. In the Morning")
+print("B. In the Afternoon")
+print("C. In the Evening")
+print("D. Never")
+answer4 = input("Your answer: ").upper()
+if answer4 == "A":
+    score = score+4
+elif answer4 == "B":
+    score = score+3
+elif answer4 == "C":
+    score = score+2
+elif answer4 == "D":
+    score = score+1
+else:
+    print("You decided to skip this question.")  
+
+print()
+
+print("When you find something really funny, you usually give...type A,B,C,D or any other key to skip:")
+print("A. A big, appreciatiative laugh")
+print("B. A laugh, but not a loud one")
+print("C. A quiet chuckle")
+print("D. A sheepish smile")
+answer5 = input("Your answer: ").upper()
+if answer5 == "A":
+    score = score+5
+elif answer5 == "B":
+    score = score+4
+elif answer5 == "C":
+    score = score+3
+elif answer5 == "D":
+    score = score+1
+else:
+    print("You decided to skip this question.")  
+
+print()
+
+print("When you enter a party or social gathering, you tend to...type A,B,C,D or any other key to skip:")
+print("A. Make a loud entrance, so that everyone notices you")
+print("B. Make a quiet entrance, looking around for someone you know")
+print("C. Make the quietest entrance, trying to stay unnoticed")
+print("D. Stay home and avoid the situation at all cost")
+answer6 = input("Your answer: ").upper()
+if answer6 == "A":
+    score = score+8
+elif answer6 == "B":
+    score = score+3
+elif answer6 == "C":
+    score = score+2
+elif answer6 == "D":
+    score = score+1
+else:
+    print("You decided to skip this question.")  
+
+print()
+
+
+print("If you are focused on a task and you're interrupted, you're likely to...type A,B,C,D or any other key to skip:")
+print("A. Welcome the break")
+print("B. Feel extremely irritated")
+print("C. Vary between A and B")
+print("D. Lose your train of thought and drop the task in it's entirety")
+answer7 = input("Your answer: ").upper()
+if answer7 == "A":
+    score = score+4
+elif answer7 == "B":
+    score = score+3
+elif answer7 == "C":
+    score = score+2
+elif answer7 == "D":
+    score = score+1
+else:
+    print("You decided to skip this question.")  
+
+print()
+
+print("Your favorite colors is...type A,B,C,D or any other key to skip:")
+print("A. Vibrant colors like red/orange/yellow")
+print("B. Cool colors blue/green/purple")
+print("C. White")
+print("D. Black")
+answer8 = input("Your answer: ").upper()
+if answer8 == "A":
+    score = score+5
+elif answer8 == "B":
+    score = score+4
+elif answer8 == "C":
+    score = score+2
+elif answer8 == "D":
+    score = score+1
+else:
+    print("You decided to skip this question.")  
+
+print()
+
+print("Before you fall asleep, you're usually lying...type A,B,C,D or any other key to skip:")
+print("A. Stretched out on your back")
+print("B. Face down on your stomach")
+print("C. On your side, slightly curled")
+print("D. With your head under the covers")
+answer9 = input("Your answer: ").upper()
+if answer9 == "A":
+    score = score+5
+elif answer9 == "B":
+    score = score+4
+elif answer9 == "C":
+    score = score+2
+elif answer9 == "D":
+    score = score+1
+else:
+    print("You decided to skip this question.")  
+
+print()
+
+print("When you dream, you're often...type A,B,C,D or any other key to skip:")
+print("A. Falling")
+print("B. Fighting or struggling")
+print("C. Searching for something or somebody")
+print("D. You usually have dreamless sleep")
+print("E. Your dreams are usually pleasant")
+answer10 = input("Your answer: ").upper()
+if answer10 == "A":
+    score = score+4
+elif answer10 == "B":
+    score = score+3
+elif answer10 == "C":
+    score = score+1
+elif answer10 == "D":
+    score = score+5
+elif answer10 == "E":
+    score = score+2
+else:
+    print("You decided to skip this question.")  
+
+print("score", score)
+if 0 <= score <= 20:
+    print(name,"you are the shy worrier")
+elif 21 <= score <= 30:
+    print("you are the careful plodder")
+elif 31 <= score <= 40:
+    print(name, "you are the loyal friend")  
+elif 41 <= score <= 50:
+    print(name, "you are the lively center of attention")
+elif 51 <= score <= 60:
+    print(name, "you are the natural leader") 
+else:
+    print("you are the vain, self-centered leader") 
+
+print()
